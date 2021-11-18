@@ -196,37 +196,6 @@ def knn_roc_curve(xtrain, xtest, ytrain, ytest):
 
 knn_roc_curve(xtrain, xtest, ytrain, ytest)
 
-''''def knn_roc_curve(name, classifier):
-  return 0
-
-knn_roc_curve(names.pop(0), classifiers.pop(0))
-
-def dc_roc_curve(name, classifier):
-  return 0
-
-dc_roc_curve(names.pop(1), classifiers.pop(1))
-
-def nb_roc_curve(name, classifier):
-  return 0
-
-nb_roc_curve(names.pop(2), classifiers.pop(2))'''
-
-
-
-'''def rfc_roc_curve(name, classifier):
-  return 0
-
-rfc_roc_curve(names.pop(4), classifiers.pop(6))
-
-def linr_roc_curve(name, classifier):
-  return 0
-
-linr_roc_curve(names.pop(5), classifiers.pop(7))
-
-def logr_roc_curve(name, classifier):
-  return 0
-
-logr_roc_curve(names.pop(6), classifiers.pop(8))'''
 
 xdata = dataset.drop(columns=['criteria'])
 ydata = dataset['criteria']
